@@ -8,12 +8,15 @@
         .center {display: block; margin-left: auto; margin-right: auto; width: 50%;}
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <img src="https://pngimage.net/wp-content/uploads/2018/06/pokemon-title-png-2.png" alt="Pokemon Logo" class="center" height="50%" wdith="50%"/>
     <form action="http://localhost:5000/hasil" method="POST"> 
-        <input name="nama" type="text" placeholder="Ketik nama pokemon..." width="50%"/><br><br>
-        <input type="Submit" value="Cari" class="btn btn-primary"/>          
+        <input name="nama" type="text" placeholder="Ketik nama pokemon..." style="border-radius: 5px; padding: 5px 200px 5px 0px"/><br><br>
+        <button class="btn btn-primary" style="padding: 5px 50px"><i class="fa fa-search"></i>Cari</button>          
     </form>    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
